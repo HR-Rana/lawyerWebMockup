@@ -1,0 +1,443 @@
+
+
+:root{
+    --primary-color: #00579b;
+    --secondary-color: rgb(236, 21, 128);
+}
+
+
+
+
+.Award{
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.Award .success-list h4{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 35px;
+}
+.Award .success-list h4 span{
+    font-size: 50px;
+}
+
+.Award .flex-box{
+    margin: 40px 0;
+}
+
+
+
+.Award .list:hover{
+   background-color: var(--secondary-color);
+}
+.Award .vector{
+    position: relative;
+}
+/* .Award .list{
+    display: inline-block;
+    width:150px;
+    height: 150px;
+    position: absolute;
+    /* box-shadow: 0px 0px 5px black; 
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    border: 2px solid var(--primary-color) ;
+} */
+
+.Award .vector img{
+    position: relative;
+}
+.Award .vector-area{
+   width: 50%;
+   height:500px;
+   position: relative;
+  
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   padding: 0px;
+}
+
+
+.Award .law-logo{
+    text-align: center;
+}
+.Award .law-logo img{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    
+}
+
+
+
+.Award .vector-area .vector{
+   width:80%;
+   height: 450px;
+   position: relative;
+   background-color:var(--secondary-color);
+   transition: .7s;
+   -webkit-transition: .7s;
+   -moz-transition: .7s;
+   -ms-transition: .7s;
+   -o-transition: .7s;
+   margin: 40px;
+   border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   border: 5px solid rgb(255, 255, 255);
+}
+/* .Award .vector{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   border: 5px solid rgb(255, 255, 255);
+   margin-top: 70px;
+} */
+ .Award .vector img{
+    width: 95%;
+    height: 400px;
+    padding:50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 25px 0;
+    margin-left: 10px;
+    
+} 
+
+
+.Award .vector-area .vector:hover .list{
+    background-color: var(--secondary-color);
+}
+.Award .vector-area .vector:hover{
+   background-color:var(--primary-color);
+   border: 5px solid var(--secondary-color);
+}
+
+
+
+
+
+
+.Award .list{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    /* box-shadow: 0px 0px 5px black; */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    border: 2px solid var(--primary-color) ;
+    background-color: var(--primary-color);
+    border: 5px solid white;
+}
+
+
+
+.Award .list .text p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.Award .list .text{
+   padding: 15px 10px;
+   color: white;
+   font-weight: 600;
+   font-size: 20px;
+}
+.Award .success-list h4 span{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.Award .vector{
+    position: relative;
+}
+.Award .first .text h4{
+    padding-top: 15px;
+}.Award .four .text h4{
+    padding-top: 15px;
+}.Award .five .text h4{
+    padding-top: 15px;
+}
+.Award .first{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.Award .second{
+    position: absolute;
+    top: 10px;
+    left: 370px;
+    
+}
+.Award .third:hover .list3{
+    background-color: var(--primary-color);
+}
+.Award .third{
+    position: absolute;
+    top: 275px;
+    left:-40px;
+    background-color: var(--secondary-color);
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.Award .four{
+    position: absolute;
+    top: 450px;
+   left: 180px;
+   animation-name: float-bob;
+
+}
+.Award .five:hover .list5{
+    background-color:var(--primary-color);
+}
+.Award .vector img{
+    position: relative;
+}
+.Award .list3{
+    background-color: var(--secondary-color);
+}.Award .list5{
+    background-color: var(--secondary-color);
+}
+.Award .five{
+    position: absolute;
+    top: 270px;
+   right:110px;
+}
+
+.Award .vector-area:hover .list3{
+    background-color: var(--primary-color);
+}
+.Award .vector-area:hover .list5{
+    background-color: var(--primary-color);
+}
+.Award .vector-area:hover #list1{
+    background-color: var(--secondary-color);
+}
+.Award .vector-area:hover .list2{
+    background-color:var(--secondary-color);
+}
+.Award .vector-area:hover .list4{
+    background-color:var(--secondary-color);
+}
+
+
+
+
+
+
+
+/* right  single vector */
+
+
+.award-right-img{
+    width: 50%;
+   overflow: hidden;
+}
+.award-right{
+    width: 90%;
+   float: right;
+   overflow: hidden;
+   margin: 60px 0;
+}
+.award-right img{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+
+
+
+/*////////////   list animation    ////////// */
+
+
+.Award .list{
+    animation-name: float-bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes float-bob {
+    0%{
+        transform: scale(1.10);
+        -webkit-transform: scale(1.10);
+        -moz-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+        -o-transform: scale(1.10);
+    } 
+    50%{
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        -o-transform: scale(1.0);
+    }
+   100%{
+        transform: scale(1.10);
+        -webkit-transform: scale(1.10);
+        -moz-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+        -o-transform: scale(1.10);
+    }
+}
+
+
+
+
+
+/* ///////////////    Faq area             ///////////// */
+
+
+.faq{
+    width: 55%;
+    margin:  0 auto;
+    padding: 50px 0;
+}
+.faq h3{
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 600;
+}
+.faq h3 span{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 40px;
+}
+.question-anser{}
+.question{
+    border: 2px solid rgb(207, 207, 207);
+    padding: 10px;
+    display: flex;
+    margin: 12px 0;
+    box-shadow: 0px 0px 2px black;
+}
+.question h4{
+    width: 70%;
+    overflow: hidden;
+    padding: 5px 0;
+}
+.answer p{
+    display: none;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.question{
+    overflow: hidden;
+}
+.question span{
+    width: 70px;
+    float: right;
+    overflow: hidden;
+    display: none;
+}
+
+.question{
+    position: relative;
+}
+.question .faq-icon{
+    display: flex;
+    text-align: center;
+    padding: 10px 0;
+}
+.question{
+    position: relative;
+}
+.faq-icon p i{
+    width: 50px;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+
+.faq-icon .hide{
+    display: none;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: #ddd;
+    padding: 25px 0;
+}
+.footer-left p{
+    font-size: 15px;
+    width: 90%;
+}
+.footer .shortmenu{
+    margin-top: 25px;
+}
+.footer .shortmenu .menu li{
+    margin: 0px 5px;
+   
+}
+.footer .shortmenu .menu li a{
+    text-decoration: none;
+     color: var(--secondary-color);
+    font-weight: 600;
+}
+.footer .shortmenu .menu li a:hover{
+    color: var(--primary-color);
+}
+
+.footer-logo{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.footer-logo img{}
+
+.footer-social{
+    width: 90%;
+    margin: 75px auto;
+    text-align: center;
+    justify-content: space-between;
+}
+.footer-social .banner-social{
+    overflow: hidden;
+    justify-content: space-between;
+}
+.footer-social .banner-social-link .social{
+   width: 75%;
+   float: right;
+   overflow: hidden;
+   justify-content: space-between;
+}
